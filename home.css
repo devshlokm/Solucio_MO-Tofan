@@ -23,7 +23,7 @@ footer{
 body{
     flex: wrap;
     color: blueviolet;
-    background-image: "https://s.w-x.co/VayuBoat.jpg";
+    background-image: url('https://s.w-x.co/VayuBoat.jpg');
 }
 
 h1{
