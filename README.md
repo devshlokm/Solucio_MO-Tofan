@@ -13,7 +13,9 @@ Objective:
 -We plan to mention all the safety measures people can take, disaster shelters people can go to at the nick of time and showing the estimated path/time of a disaster.
 
 Features
-
+-Convenient access to all the required resources through links and dynamic elements
+-Easy to operate user interface
+-Platform Independent
 
 
 
