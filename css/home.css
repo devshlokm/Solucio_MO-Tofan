@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 10vh;
+    width: 100%;
+    background:linear-gradient(120deg,#2980b9,#8e44ad);
+    text-align: center;
+    justify-content: center;
+    position: fixed;
+}
+
+#color {
+    background-color: orangered;
+    height: 1vh;
+    margin: 3vh 0;
+}
+
+nav {
+    display: flex;
+    color: white;
+}
+
+.Logo {
+    display: flex;
+    align-items: center;
+    margin: 0 2vw;
+    font-size: 6vh;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    margin: 0 17vw;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 2vh;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 3vh;
+}
+
+.container1 {
+    height: 120vh;
+    background-image: url('/Images/image1.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#write {
+    display: flex;
+    padding: 16vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5vw;
+}
+
+#write1 {
+    display: flex;
+    padding: 1vh;
+    color: rgb(23, 22, 22);
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw;
+}
+
+.container2 {
+    position: relative;
+    top: 57vh;
+    height: 120vh;
+    background-image: url('/Images/image2.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#write3 {
+    color: aliceblue;
+    display: flex;
+    padding: 16vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5vw;
+}
+
+#write4 {
+    display: flex;
+    padding: 1vh;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw;
+}
+
+.container3 {
+    position: relative;
+    top: 53vh;
+    height: 120vh;
+    background-image: url('/Images/image3.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#write5 {
+    color: aliceblue;
+    display: flex;
+    padding: 16vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5vw;
+}
+
+#write6 {
+
+    display: flex;
+    padding: 1vh;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw;
+}
+
+footer {
+    display: flex;
+    height: 8vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(120deg,#2980b9,#8e44ad);
+    color: white;
+    font-size: 4vh;
+    position: relative;
+    top: 230vh;
+    font-family: 'Lato', sans-serif;
+}

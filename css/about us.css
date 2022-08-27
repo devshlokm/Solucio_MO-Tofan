@@ -14,12 +14,6 @@ header {
     position: fixed;
 }
 
-#color {
-    background-color: orangered;
-    height: 1vh;
-    margin: 3vh 0;
-}
-
 nav {
     display: flex;
     color: white;
@@ -49,94 +43,118 @@ nav ul li a {
     font-size: 3vh;
 }
 
-.container1 {
-    height: 120vh;
-    background-image: url('/Images/image1.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
+body {
+    background-color: yellowgreen;
 }
 
-#write {
+#color {
+    background-color: orangered;
+    height: 1vh;
+    margin: 3vh 0;
+}
+
+.Greetings {
+    background-color: yellowgreen;
     display: flex;
-    padding: 16vh;
     justify-content: center;
     align-items: center;
-    font-size: 2.5vw;
+    font-size: 3vw;
 }
 
-#write1 {
+.para {
+    background-color: yellowgreen;
     display: flex;
-    padding: 1vh;
-    color: rgb(23, 22, 22);
+    max-width: 99vw;
     justify-content: center;
     align-items: center;
-    font-size: 2vw;
+    font-size: 1.5vw;
+    font-family: 'Lato', sans-serif;
+    line-height: 30px;
 }
 
-.container2 {
-    position: relative;
-    top: 57vh;
-    height: 120vh;
-    background-image: url('/Images/image2.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-#write3 {
-    color: aliceblue;
+.Greeting2 {
+    background-color: yellowgreen;
     display: flex;
-    padding: 16vh;
     justify-content: center;
     align-items: center;
-    font-size: 2.5vw;
+    font-size: 3vw;
 }
 
-#write4 {
+.vedio {
     display: flex;
-    padding: 1vh;
-    color: white;
     justify-content: center;
     align-items: center;
-    font-size: 2vw;
 }
 
-.container3 {
-    position: relative;
-    top: 53vh;
-    height: 120vh;
-    background-image: url('/Images/image3.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-#write5 {
-    color: aliceblue;
+.link {
     display: flex;
-    padding: 16vh;
     justify-content: center;
     align-items: center;
-    font-size: 2.5vw;
+    font-size: 3vw;
 }
 
-#write6 {
+.link2 {
+    text-align: center;
+}
 
+.maps {
     display: flex;
-    padding: 1vh;
-    color: white;
     justify-content: center;
     align-items: center;
-    font-size: 2vw;
 }
 
-footer {
+.team {
+    text-align: center;
+    font-size: 3vw;
+}
+
+footer3 {
     display: flex;
-    height: 8vh;
+    height: 8.7vh;
     justify-content: center;
     align-items: center;
     background-color: rgb(19, 9, 123);
     color: white;
     font-size: 4vh;
     position: relative;
-    top: 230vh;
+    /* top: 0vh; */
     font-family: 'Lato', sans-serif;
 }
+
+.about {
+    background-attachment: fixed;
+    margin: 0 7vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/MO TOFAN/Image/ITER2.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+#bishal {
+    display: sticky;
+    position: relative;
+    left: -12vw;
+    bottom: 14vh;
+    line-height: 8px;
+}
+
+#srived {
+    line-height: 9px;
+    display: inline-block;
+    position: relative;
+    left: -3vw;
+    bottom: 14vh;
+
+}
+
+#dev {
+    line-height: 8px;
+    display: inline-block;
+    position: relative;
+    left: 7vw;
+    bottom: 14vh;
+
+}
+

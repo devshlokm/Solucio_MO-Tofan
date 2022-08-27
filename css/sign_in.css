@@ -1,14 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 10vh;
+    width: 100%;
+    background:linear-gradient(120deg,#2980b9,#8e44ad);
+    text-align: center;
+    justify-content: center;
+    position: fixed;
+}
+
+#color {
+    background-color: orangered;
+    height: 1vh;
+    margin: 3vh 0;
+}
+
+nav {
+    display: flex;
+    color: white;
+}
+
+.Logo {
+    display: flex;
+    align-items: center;
+    margin: 0 2vw;
+    font-size: 6vh;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    margin: 0 17vw;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 2vh;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 3vh;
+}
 body{
     margin: 0;
     padding: 0;
-    background: linear-gradient(120deg,#2980b9,#8e44ad);
+    background: linear-gradient(120deg,#6cb5e6cf,#c164ea);
     height: 100vh;
     overflow: hidden;
 }
 
   .center{
     position: absolute;
-    top: 10%;
+    top: 15%;
     left:50%;
     transform: translate(-50%);
     width: 400px;
@@ -51,6 +101,7 @@ form .txt_field{
     color: rgb(6, 30, 50);
     font-size: 16px;
     pointer-events:fill;
+    
 }
 
 .txt_field span ::before{
@@ -89,7 +140,7 @@ input[type="submit"]{
     width: 100%;
     height: 50px;
     border: 1px solid cyan;
-    background: #6b0ea8;
+    background: #208cea;
     border-radius: 30px;
     font-size: 20px;
     text-align: center;
