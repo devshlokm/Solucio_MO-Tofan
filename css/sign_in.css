@@ -35,7 +35,7 @@ nav {
 nav ul {
     display: flex;
     align-items: center;
-    margin: 0 17vw;
+    margin: 0 10vw;
 }
 
 nav ul li {
@@ -165,4 +165,17 @@ input[type="submit"]:hover{
 
 .signup_link a:hover{
     text-decoration: underline;
+}
+
+footer {
+    display: flex;
+    height: 8vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(120deg,#2980b9,#8e44ad);
+    color: white;
+    font-size: 4vh;
+    position: relative;
+    top: 230vh;
+    font-family: 'Lato', sans-serif;
 }

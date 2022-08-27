@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 10vh;
+    width: 100%;
+    background:linear-gradient(120deg,#2980b9,#8e44ad);
+    text-align: center;
+    justify-content: center;
+    position: fixed;
+}
+
+#color {
+    background-color: orangered;
+    height: 1vh;
+    margin: 3vh 0;
+}
+
+nav {
+    display: flex;
+    color: white;
+}
+
+.Logo {
+    display: flex;
+    align-items: center;
+    margin: 0 2vw;
+    font-size: 6vh;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    margin: 0 10vw;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 2vh;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 3vh;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15vh 5vw;
+    background-color: rgba(240, 230, 230, 0.898);
+    height: 74vh;
+    width: 90vw;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#track {
+    display: inline-block;
+    position: relative;
+    left: 32vw;
+    top: -26vh;
+    font-size: 1.2vw;
+}
+
+#photo {
+    display: inline-block;
+    position: relative;
+    top: -5vh;
+    right: -15vw;
+}
+
+#tag {
+    display: inline-block;
+    position: relative;
+    right: 9vw;
+    top: 15vh;
+    font-size: 5vw;
+    font-family: 'Orbitron', sans-serif;
+}
+
+#insta {
+    display: inline-block;
+    position: relative;
+    top: 32vh;
+    right: 48vw;
+
+}
+
+#facebook {
+    display: inline-block;
+    position: relative;
+    top: 32vh;
+    right: 39vw;
+
+}
+
+#twitter {
+    display: inline-block;
+    position: relative;
+    top: 32vh;
+    right: 30vw;
+
+}
+
+#github {
+    display: inline-block;
+    position: relative;
+    top: 32vh;
+    right: 22vw;
+
+}
+
+footer4 {
+    display: flex;
+    height: 8vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(19, 9, 123);
+    color: white;
+    font-size: 4vh;
+    position: relative;
+    top: 0vh;
+    font-family: 'Lato', sans-serif;
+}

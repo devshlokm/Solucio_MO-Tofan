@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 10vh;
+    width: 100%;
+    background:linear-gradient(120deg,#2980b9,#8e44ad);
+    text-align: center;
+    justify-content: center;
+    /* position: fixed; */
+}
+
+#color {
+    background-color: orangered;
+    height: 2vh;
+    margin: 3vh 0;
+}
+
+nav {
+    display: flex;
+    color: white;
+}
+
+.Logo {
+    display: flex;
+    align-items: center;
+    margin: 0 2vw;
+    font-size: 6vh;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    margin: 0 10vw;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 3vh;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 3vh;
+}
+
+body{
+    line-height: 25px;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(120deg,#6cb5e6cf,#c164ea);
+    height: 100vh;
+    overflow: hidden;
+}
+
+main{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    top: 40px;
+}
+
+h1{
+    font-weight: 500px;
+}
+footer3 {
+    display: flex;
+    height: 8vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(120deg,#2980b9,#8e44ad);
+    color: white;
+    font-size: 4vh;
+    position: relative;
+    top: 230vh;
+    font-family: 'Lato', sans-serif;
+}

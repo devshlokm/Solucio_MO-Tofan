@@ -8,7 +8,7 @@
 header {
     height: 10vh;
     width: 100%;
-    background-color: rgb(19, 9, 123);
+    background: linear-gradient(120deg,#2980b9,#8e44ad);
     text-align: center;
     justify-content: center;
     position: fixed;
@@ -29,7 +29,7 @@ nav {
 nav ul {
     display: flex;
     align-items: center;
-    margin: 0 17vw;
+    margin: 0 10vw;
 }
 
 nav ul li {
@@ -44,7 +44,7 @@ nav ul li a {
 }
 
 body {
-    background-color: yellowgreen;
+    background:linear-gradient(120deg,#2980b9,#8e44ad);;
 }
 
 #color {
@@ -73,7 +73,7 @@ body {
 }
 
 .Greeting2 {
-    background-color: yellowgreen;
+    background:linear-gradient(120deg,#2980b9,#8e44ad);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -113,11 +113,10 @@ footer3 {
     height: 8.7vh;
     justify-content: center;
     align-items: center;
-    background-color: rgb(19, 9, 123);
+    background: linear-gradient(120deg,#2980b9,#8e44ad);
     color: white;
     font-size: 4vh;
     position: relative;
-    /* top: 0vh; */
     font-family: 'Lato', sans-serif;
 }
 
@@ -127,7 +126,7 @@ footer3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('/MO TOFAN/Image/ITER2.jpg');
+    background-image: url('/Images/ITER2.jpg');
     height: 100vh;
     background-repeat: no-repeat;
 }
