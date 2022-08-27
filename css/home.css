@@ -35,7 +35,7 @@ nav {
 nav ul {
     display: flex;
     align-items: center;
-    margin: 0 10vw;
+    margin: 0 17vw;
 }
 
 nav ul li {
@@ -51,7 +51,8 @@ nav ul li a {
 
 .container1 {
     height: 120vh;
-    background-image: url('/Images/image1.jpg');
+    background-image
+    : url('/Images/image1.jpg');
     background-size: contain;
     background-repeat: no-repeat;
 }
