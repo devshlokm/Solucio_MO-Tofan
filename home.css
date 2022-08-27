@@ -6,6 +6,14 @@ nav{
     font-size: 34px;
 }
 
+footer{
+    background-color: rgb(43, 147, 231);
+    color: azure;
+    flex :size 23px;
+    font: bold;
+    font-size: 18px;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -13,4 +21,8 @@ nav{
 
 h1{
     color: black;
+}
+
+h2{
+    color: blue;
 }
