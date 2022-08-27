@@ -1,6 +1,28 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
 * {
+=======
+nav{
+    background-color: rgb(43, 147, 231);
+    color: azure;
+    flex :size 23px;
+    font: bold;
+    font-size: 34px;
+}
+
+footer{
+    background-color: rgb(43, 147, 231);
+    color: azure;
+    flex :size 23px;
+    font: bold;
+    font-size: 18px;
+    text-align:start;
+    align-self: baseline;
+}
+
+*{
+>>>>>>> a1351a2bf5f17cda0372696e445095759d5c7808
     margin: 0;
     padding: 0;
 }
