@@ -1,3 +1,16 @@
-.nav{
-    background-color: aqua;
+nav{
+    background-color: rgb(43, 147, 231);
+    color: azure;
+    flex :size 23px;
+    font: bold;
+    font-size: 34px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: black;
 }
