@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
-* {
-=======
 nav{
     background-color: rgb(43, 147, 231);
     color: azure;
@@ -22,7 +18,7 @@ footer{
 }
 
 *{
->>>>>>> a1351a2bf5f17cda0372696e445095759d5c7808
+ 
     margin: 0;
     padding: 0;
 }
