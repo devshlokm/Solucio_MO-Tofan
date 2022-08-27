@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 10vh;
+    width: 100%;
+    background:linear-gradient(120deg,#2980b9,#8e44ad);
+    text-align: center;
+    justify-content: center;
+    position: fixed;
+}
+
+#color {
+    background-color: orangered;
+    height: 1vh;
+    margin: 3vh 0;
+}
+
+nav {
+    display: flex;
+    color: white;
+}
+
+.Logo {
+    display: flex;
+    align-items: center;
+    margin: 0 2vw;
+    font-size: 6vh;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    margin: 0 17vw;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 2vh;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 3vh;
+}
