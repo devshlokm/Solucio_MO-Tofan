@@ -1,5 +1,5 @@
 nav{
-    background-color: rgb(82, 143, 194);
+    background-color: rgb(43, 147, 231);
     color: azure;
     flex :size 23px;
     font: bold;
@@ -12,7 +12,8 @@ footer{
     flex :size 23px;
     font: bold;
     font-size: 18px;
-    text-align:end;
+    text-align:start;
+    align-self: baseline;
 }
 
 *{
