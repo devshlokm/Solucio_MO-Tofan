@@ -12,11 +12,18 @@ footer{
     flex :size 23px;
     font: bold;
     font-size: 18px;
+    text-align:end;
 }
 
 *{
     margin: 0;
     padding: 0;
+}
+
+body{
+    flex: wrap;
+    color: blueviolet;
+    background-image: "https://s.w-x.co/VayuBoat.jpg";
 }
 
 h1{
