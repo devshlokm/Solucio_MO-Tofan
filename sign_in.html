@@ -21,17 +21,15 @@
                 <li><a href="/Contact.html">Contact Us</a></li>
                 <li><a href="https://www.windy.com/?21.016,87.297,6" target="main">Map</a></li>
 
-              
-
             </ul>
         </nav>
         <div id="color">
         </div>
     </header>
-    <div class="center">
+    <div class="center-box" id="login-div">
         <h1>Login</h1>
-        <form action="/action.php">
-            <div class="txt_field">
+        <!-- <form action="/action.php">
+            <div class="txt_field" id >
                 <label>Username</label><br>
                 <input type="text" required>
                
@@ -47,9 +45,26 @@
                 <span class="signup_Link"><hr>
                     Not a member? <a href="#">Signup</a>
                 </span>
-            </div>
-            
-        </form>
+            </div> -->
+
+            <input type="email" id="login-email" name="login-email" class="text-field" placeholder="Email"><br>
+            <input type="password" id="login-password" name="login-password" class="text-field" placeholder="Password"><br>
+            <button id="login-btn" class="btn-style">Login</button>
+            <button id="reg-btn" class="an-btn">don't have an account? Register</button>
+
+    </div>
+       
+
+    <div class = "center box" id="reg-div">
+        <!-- <h1>Register</h1>
+        <input type="email" id="register-email" name="login-email" class="text-field" placeholder="Email"><br>
+        <input type="password" id="register-password" name="register-password" class="text-field" placeholder="Password"><br>
+        <button id="register-btn" class="btn-style">Register</button><br>
+        <button id = "log-btn" class="an-btn">have an account ? LOGIN</button>
+    </div>             -->
+        <div id="result-box">
+            <h3>"result"</h3>
+        </div>
     </div>
     <footer>
         <p>Copyright &copy; 2022 Mo Tofan.com</p>
