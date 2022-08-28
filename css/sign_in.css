@@ -58,17 +58,18 @@ body{
 
   .center-box{
     position: absolute;
-    top: 50%;
+    top: 30%;
     left:50%;
     transform: translate(-50%);
     width: 300px;
+    height: 300px;
     background: rgba(37, 142, 191, 0.491);;
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 10px;
     text-emphasis: center;
 }
 
-.center h1{
+h1{
     text-align: center;
     padding: 0 0 20px 0;
     border-bottom: 1px solid springgreen;
@@ -79,22 +80,32 @@ body{
     box-sizing: border-box;
 }
 
-.txt_field{
-    padding: 10px 20px;
-    margin: 20px 0;
-    border-radius:30px ;
-    position: relative;
-    border-bottom: 2px solid #f4d3d3;
-    margin: 30px 0;
-    font-size: 12px;
-    color: rgba(37, 142, 191, 0.491);;
+.txt-field{
+    width: 100%;
+    height: 50px;
+    border: 1px solid cyan;
+    background: #208cea;
+    border-radius: 30px;
+    font-size: 20px;
+    text-align: center;
+    text-emphasis-color: aqua;
+    cursor: pointer;
+    text-decoration-color: aqua;
+    font-weight: 700;
 }
 
 .btn-style{
-    padding: 10px 30px;
-    border: 1px solid white;
-    background-color: wheat;
-    color: rgba(37, 142, 191, 0.491);;
+    width: 100%;
+    height: 50px;
+    border: 1px solid cyan;
+    background: #208cea;
+    border-radius: 30px;
+    font-size: 20px;
+    text-align: center;
+    text-emphasis-color: aqua;
+    cursor: pointer;
+    text-decoration-color: aqua;
+    font-weight: 700;
 }
 
 .btn-style:hover{
@@ -106,11 +117,14 @@ body{
     margin-top: 10px;
     border: 0;
     font-size: 12pt;
-    color: wheat;
+    color: rgb(62, 196, 230);
+    font-weight: 150;
 }
-.txt_field input{
+.text-field input{
+    display: flex;
+    align-content: center;
     width: 100%;
-    padding: 0 5px;
+    padding: 30px;
     height: 40px;
     font-size: 16px;
     border:none;
