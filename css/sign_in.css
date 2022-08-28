@@ -56,15 +56,16 @@ body{
     overflow: hidden;
 }
 
-  .center{
+  .center-box{
     position: absolute;
-    top: 15%;
+    top: 50%;
     left:50%;
     transform: translate(-50%);
-    width: 400px;
-    background: bisque;
+    width: 300px;
+    background: rgba(37, 142, 191, 0.491);;
     border-radius: 10px;
     padding: 10px;
+    text-emphasis: center;
 }
 
 .center h1{
@@ -78,12 +79,35 @@ body{
     box-sizing: border-box;
 }
 
-form .txt_field{
+.txt_field{
+    padding: 10px 20px;
+    margin: 20px 0;
+    border-radius:30px ;
     position: relative;
     border-bottom: 2px solid #f4d3d3;
     margin: 30px 0;
+    font-size: 12px;
+    color: rgba(37, 142, 191, 0.491);;
 }
 
+.btn-style{
+    padding: 10px 30px;
+    border: 1px solid white;
+    background-color: wheat;
+    color: rgba(37, 142, 191, 0.491);;
+}
+
+.btn-style:hover{
+    background-color:rgba(37, 142, 191, 0.491);
+    color: wheat;
+}
+
+.an-btn{
+    margin-top: 10px;
+    border: 0;
+    font-size: 12pt;
+    color: wheat;
+}
 .txt_field input{
     width: 100%;
     padding: 0 5px;
