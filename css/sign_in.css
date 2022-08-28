@@ -121,6 +121,9 @@ h1{
     font-weight: 150;
 }
 .text-field input{
+    position: absolute;
+    margin-left: 20px;
+    left: 10px;
     display: flex;
     align-content: center;
     width: 100%;
