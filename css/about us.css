@@ -54,7 +54,7 @@ body {
 }
 
 .Greetings {
-    background-color: yellowgreen;
+    background-color: cyan;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -62,7 +62,7 @@ body {
 }
 
 .para {
-    background-color: yellowgreen;
+    background-color: cyan;
     display: flex;
     max-width: 99vw;
     justify-content: center;
