@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
 * {
@@ -12,7 +11,7 @@ header {
     background:linear-gradient(120deg,#2980b9,#8e44ad);
     text-align: center;
     justify-content: center;
-    position: fixed;
+    /* position: fixed; */
 }
 
 #color {
@@ -49,28 +48,21 @@ nav ul li a {
     text-decoration: none;
     font-size: 3vh;
 }
-
 body{
-    line-height: 25px;
-    margin: 0;
-    padding: 0;
-    background: linear-gradient(120deg,#6cb5e6cf,#c164ea);
-    height: 100vh;
-    overflow: hidden;
+    background: linear-gradient(120deg,#2980b9,#8e44ad) ;
 }
-
-main{
-    position: relative;
-    display: inline-block;
+.precautions{
+text-align: center;
+}
+.para1{
     text-align: center;
-    top: 40px;
 }
-
-h1{
-    font-weight: 500px;
+.list1{
+    display: inline-block;
+    position: relative;
+    left: 20vw;
 }
-
-footer3 {
+footer {
     display: flex;
     height: 8vh;
     justify-content: center;
@@ -79,7 +71,53 @@ footer3 {
     color: white;
     font-size: 4vh;
     position: relative;
-    top: 230vh;
+    top: 7vh;
     font-family: 'Lato', sans-serif;
 }
-
+.para2{
+    text-align: center;
+}
+.Quos1{
+    text-align: center;
+}
+.para3{
+    text-align: center;
+}
+.list2{
+    display: inline-block;
+    position: relative;
+    left: 20vw;
+}
+.Quos2{
+    text-align: center;
+}
+.para4{
+    text-align: center;
+}
+.list3{
+    display: inline-block;
+    position: relative;
+    left: 20vw;
+}
+.Quos3{
+    text-align: center;
+}
+.para5{
+    text-align: center;
+}
+.list4{
+    display: inline-block;
+    position: relative;
+    left: 20vw;
+}
+.Quos4{
+    text-align: center;
+}
+.para6{
+    text-align: center;
+}
+.list5{
+    display: inline-block;
+    position: relative;
+    left: 8vw;
+}
